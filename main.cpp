@@ -34,10 +34,14 @@ void mergeTests(){
     v1.push_back(2);
     v1.push_back(11);
 
-    auto res = s.merge_sort(v1);
-
+    /*auto res = s.merge_sort(v1);
     for ( int i = 0; i < res.size(); i++){
         std::cout << res[i] << " ";
+    }*/
+    std::cout << std::endl;
+    s.merge_sort_inplace(&v1, 0, v1.size()-1);
+    for ( int i = 0; i < v1.size(); i++){
+        std::cout << v1[i] << " ";
     }
 }
 

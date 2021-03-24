@@ -42,6 +42,46 @@ private:
 
     }
 
+    void merge_inplace(std::vector<int>* arr, int start, int mid, int end){
+
+        int j = mid + 1;
+
+        // we're already done
+        if ( arr->at(mid) <= arr->at(j)) {
+            return;
+        }
+
+        while (start <= mid && j <= end){
+
+            // place item in its right spot
+            if ( arr->at(start) > arr->at(j)){
+
+                // arr[j] must be swapped with arr[start]
+                int value = arr->at(j);
+                int index = j;
+
+                // let's shift everybody one step to the right
+                while (index > start) {
+
+                    arr->at(index) = arr->at(index - 1);
+                    index--;
+
+                }
+
+                // till we can finally put the value in its proper ordered slot!
+                arr->at(start) = value;
+
+                mid++;
+                j++;
+            }
+
+            // in any case, we want to keep goin
+            start++;
+
+        }
+
+    }
+
 public:
     MergeSort()= default;
 
@@ -68,6 +108,19 @@ public:
 
         return merge(left,right);
 
+    }
+
+    void merge_sort_inplace( std::vector<int>* arr, int start, int end){
+
+        if ( start < end  ){
+
+            int m = (start+end)/2;
+            merge_sort_inplace(arr, start, m);
+            merge_sort_inplace(arr, m+1, end);
+
+            merge_inplace(arr, start, m, end);
+
+        }
     }
 };
 
