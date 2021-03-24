@@ -93,6 +93,12 @@
 		<Unit filename="D:/Projects/cpp/data_structures/LinkedList.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/MergeSort.cpp">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/MergeSort.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/cpp/data_structures/Queue.h">
 			<Option target="data_structures"/>
 		</Unit>

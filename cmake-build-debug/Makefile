@@ -127,6 +127,33 @@ data_structures\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\build
 .PHONY : data_structures\fast
 
+MergeSort.obj: MergeSort.cpp.obj
+
+.PHONY : MergeSort.obj
+
+# target to build an object file
+MergeSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\MergeSort.cpp.obj
+.PHONY : MergeSort.cpp.obj
+
+MergeSort.i: MergeSort.cpp.i
+
+.PHONY : MergeSort.i
+
+# target to preprocess a source file
+MergeSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
+
+MergeSort.s: MergeSort.cpp.s
+
+.PHONY : MergeSort.s
+
+# target to generate assembly for a file
+MergeSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -163,6 +190,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... data_structures
+	@echo ... MergeSort.obj
+	@echo ... MergeSort.i
+	@echo ... MergeSort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

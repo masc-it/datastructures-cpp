@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/data_structures.dir/MergeSort.cpp.obj"
   "CMakeFiles/data_structures.dir/main.cpp.obj"
   "data_structures.exe"
   "data_structures.exe.manifest"

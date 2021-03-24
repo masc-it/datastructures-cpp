@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Projects/cpp/data_structures/MergeSort.cpp" "D:/Projects/cpp/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/MergeSort.cpp.obj"
   "D:/Projects/cpp/data_structures/main.cpp" "D:/Projects/cpp/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

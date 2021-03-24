@@ -3,17 +3,42 @@
 #include "LinkedList.h"
 #include "DynamicArray.h"
 #include "Stack.h"
+#include "MergeSort.h"
 
 void llTests();
 void stackTests();
+void mergeTests();
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
     //llTests();
-    stackTests();
+    //stackTests();
 
+    mergeTests();
     return 0;
+}
+
+
+void mergeTests(){
+
+    auto s = MergeSort();
+
+    std::vector<int> v1;
+    v1.push_back(10);
+    v1.push_back(12);
+    v1.push_back(1);
+    v1.push_back(5);
+    v1.push_back(120);
+
+    v1.push_back(2);
+    v1.push_back(11);
+
+    auto res = s.merge_sort(v1);
+
+    for ( int i = 0; i < res.size(); i++){
+        std::cout << res[i] << " ";
+    }
 }
 
 void stackTests(){
