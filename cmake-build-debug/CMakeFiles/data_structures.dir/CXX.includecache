@@ -12,12 +12,6 @@ D:/Projects/cpp/data_structures/DynamicArray.h
 iostream
 -
 
-D:/Projects/cpp/data_structures/LinkedList.h
-
-D:/Projects/cpp/data_structures/MergeSort.cpp
-MergeSort.h
-D:/Projects/cpp/data_structures/MergeSort.h
-
 D:/Projects/cpp/data_structures/MergeSort.h
 vector
 -
@@ -25,18 +19,34 @@ vector
 D:/Projects/cpp/data_structures/Stack.h
 vector
 -
+
+D:/Projects/cpp/data_structures/list/ArrayList.h
+List.h
+D:/Projects/cpp/data_structures/list/List.h
+
+D:/Projects/cpp/data_structures/list/Link.h
+
+D:/Projects/cpp/data_structures/list/LinkedList.h
+List.h
+D:/Projects/cpp/data_structures/list/List.h
+Link.h
+D:/Projects/cpp/data_structures/list/Link.h
+
+D:/Projects/cpp/data_structures/list/List.h
 
 D:/Projects/cpp/data_structures/main.cpp
 iostream
 -
 Array.h
 D:/Projects/cpp/data_structures/Array.h
-LinkedList.h
-D:/Projects/cpp/data_structures/LinkedList.h
 DynamicArray.h
 D:/Projects/cpp/data_structures/DynamicArray.h
 Stack.h
 D:/Projects/cpp/data_structures/Stack.h
 MergeSort.h
 D:/Projects/cpp/data_structures/MergeSort.h
+list/ArrayList.h
+D:/Projects/cpp/data_structures/list/ArrayList.h
+list/LinkedList.h
+D:/Projects/cpp/data_structures/list/LinkedList.h
 

@@ -105,6 +105,18 @@
 		<Unit filename="D:/Projects/cpp/data_structures/Stack.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/list/ArrayList.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/list/Link.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/list/LinkedList.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/list/List.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/cpp/data_structures/main.cpp">
 			<Option target="data_structures"/>
 		</Unit>

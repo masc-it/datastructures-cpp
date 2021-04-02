@@ -7,7 +7,10 @@ CMakeFiles/data_structures.dir/MergeSort.cpp.obj
 CMakeFiles/data_structures.dir/main.cpp.obj
  D:/Projects/cpp/data_structures/Array.h
  D:/Projects/cpp/data_structures/DynamicArray.h
- D:/Projects/cpp/data_structures/LinkedList.h
  D:/Projects/cpp/data_structures/MergeSort.h
  D:/Projects/cpp/data_structures/Stack.h
+ D:/Projects/cpp/data_structures/list/ArrayList.h
+ D:/Projects/cpp/data_structures/list/Link.h
+ D:/Projects/cpp/data_structures/list/LinkedList.h
+ D:/Projects/cpp/data_structures/list/List.h
  D:/Projects/cpp/data_structures/main.cpp
