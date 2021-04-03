@@ -13,4 +13,6 @@ CMakeFiles\data_structures.dir\main.cpp.obj: ..\list\Link.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\list\LinkedList.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\list\List.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\main.cpp
+CMakeFiles\data_structures.dir\main.cpp.obj: ..\queue\LQueue.h
+CMakeFiles\data_structures.dir\main.cpp.obj: ..\queue\Queue.h
 

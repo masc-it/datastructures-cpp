@@ -56,8 +56,13 @@ public:
 
     void insert(const T &element) override {
 
-        // in this implementation, the next node is stored as the current one.
-        curr->next = new Link<T>(element, curr->next);
+        // in this implementation, 'curr->next' node stands for the real current node.
+        // If curr points to the preceding node, we make element removal more efficient as side effect.
+
+        Link<T>* current = curr->next;
+        auto* newNode = new Link<T>(element, current);
+
+        curr->next = newNode;
 
         if ( tail == curr) tail = curr->next;
 
@@ -74,12 +79,17 @@ public:
 
     T remove() override {
 
+        /*
+         * Since our current node is stored as 'curr->next', in 'curr' we have the previous one actually
+         * This allows us to have a O(1) removal since we have direct access to the previous' next node that must be updated
+         */
+
         T el = curr->next->value;
 
         // get current element
         Link<T>* tmp = curr->next;
 
-        // point to the link after the one we want to remove
+        // update the current node as the next one
         curr->next = curr->next->next;
 
         delete tmp;
@@ -123,7 +133,7 @@ public:
     int currentPos() const override {
 
         Link<T>* tmp = head;
-        int i = 0;
+        int i;
         for ( i = 0; tmp != curr; i++){
 
             tmp = tmp->next;
@@ -137,12 +147,14 @@ public:
 
         curr = head;
 
-        for ( int i = 0; i < pos; i++, curr = curr->next);
+        for ( int i = 0; i < count && i < pos; i++, curr = curr->next);
 
 
     }
 
     const T &getValue() const override {
+
+        // remind that 'curr->next' is the current element
         return curr->next->value;
     }
 

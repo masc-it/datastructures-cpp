@@ -1,0 +1,8 @@
+//
+// Created by mascIT on 28/01/2019.
+//
+
+#ifndef DATA_STRUCTURES_QUEUE1_H
+#define DATA_STRUCTURES_QUEUE1_H
+
+#endif //DATA_STRUCTURES_QUEUE1_H

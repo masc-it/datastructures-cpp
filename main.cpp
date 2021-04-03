@@ -7,10 +7,14 @@
 #include "list/ArrayList.h"
 #include "list/LinkedList.h"
 
+#include "queue/LQueue.h"
+
 void llTests();
 void stackTests();
 void mergeTests();
 void llTest2();
+
+void queueTest1();
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -20,13 +24,34 @@ int main() {
 
     //mergeTests();
 
-    llTest2();
+    //llTest2();
+
+    queueTest1();
+
     return 0;
+}
+
+void queueTest1(){
+
+    LQueue<int> q;
+
+    q.enqueue(10);
+    q.enqueue(12);
+
+
+    while(q.length() != 0){
+
+        auto el = q.dequeue();
+
+        std::cout << el << std::endl;
+
+    }
+
 }
 
 void llTest2(){
 
-    ArrayList<int> list(10);
+    /*ArrayList<int> list(10);
 
     list.append(0);
     list.append(3);
@@ -38,12 +63,19 @@ void llTest2(){
 
         std::cout << el << std::endl;
 
-    }
+    }*/
 
     LinkedList<int> ll;
 
+    ll.append(10);
+    ll.append(11);
+    ll.append(12);
+
+    ll.moveToPos(1);
+
     ll.insert(10);
-    ll.append(20);
+    ll.insert(30);
+    //ll.append(20);
 
     for ( ll.moveToStart(); ll.currentPos() < ll.length(); ll.next()){
 

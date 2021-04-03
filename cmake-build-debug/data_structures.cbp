@@ -99,7 +99,7 @@
 		<Unit filename="D:/Projects/cpp/data_structures/MergeSort.h">
 			<Option target="data_structures"/>
 		</Unit>
-		<Unit filename="D:/Projects/cpp/data_structures/Queue.h">
+		<Unit filename="D:/Projects/cpp/data_structures/Queue1.h">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/cpp/data_structures/Stack.h">
@@ -118,6 +118,12 @@
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/cpp/data_structures/main.cpp">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/queue/LQueue.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/queue/Queue.h">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/cpp/data_structures/CMakeLists.txt">
