@@ -18,7 +18,7 @@ private:
 
 public:
 
-    ArrayList(int size){
+    explicit ArrayList(int size = 10){
         maxSize = size;
         listSize = curr = 0;
 
@@ -39,9 +39,26 @@ public:
 
     }
 
-    void insert(const T &element) override {
+    void realloc(){
+        //std::cout << "realloc" << std::endl;
+        maxSize *= 2;
+        T* newList = new T[maxSize];
+
+        memcpy(newList, list, sizeof(T)*listSize);
+
+        delete [] list;
+
+        list = newList;
+    }
+
+
+    void insert(const T& element) override {
 
         // should check limits
+
+        if ( listSize >= maxSize  ){
+            realloc();
+        }
 
         for ( int i = listSize; i > curr; i--){
             list[i] = list[i-1];
@@ -53,6 +70,12 @@ public:
     }
 
     void append(const T &element) override {
+
+        if (listSize >= maxSize) {
+
+            realloc();
+
+        }
 
         list[listSize++] = element;
     }

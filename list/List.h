@@ -8,7 +8,7 @@
 template <typename T>
 class List {
 
-    List(const List&) {}
+    explicit List(const List&) {}
 
 public:
     List() {}

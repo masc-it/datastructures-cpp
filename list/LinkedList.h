@@ -54,7 +54,7 @@ public:
 
     }
 
-    void insert(const T &element) override {
+    void insert(const T& element) override {
 
         // in this implementation, 'curr->next' node stands for the real current node.
         // If curr points to the preceding node, we make element removal more efficient as side effect.

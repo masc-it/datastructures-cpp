@@ -9,12 +9,16 @@
 
 #include "queue/LQueue.h"
 
+#include "dict/UnorderedDict.h"
+
 void llTests();
 void stackTests();
 void mergeTests();
 void llTest2();
 
 void queueTest1();
+
+void dictTest1();
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -26,10 +30,41 @@ int main() {
 
     //llTest2();
 
-    queueTest1();
+    //queueTest1();
+
+    dictTest1();
 
     return 0;
 }
+void dictTest1(){
+
+    UnorderedDict<int, int> d(1);
+
+
+    d.put(0, 10);
+
+    d.put(1, 11);
+    d.put(2, 12);
+    d.put(3, 13);
+    d.put(4, 14);
+
+
+    int el1 = d.find(1);
+
+    std::cout << el1 << std::endl;
+
+    el1 = d.find(2);
+
+    std::cout << el1 << std::endl;
+    el1 = d.find(3);
+
+    std::cout << el1 << std::endl;
+    el1 = d.find(4);
+
+    std::cout << el1 << std::endl;
+}
+
+
 
 void queueTest1(){
 

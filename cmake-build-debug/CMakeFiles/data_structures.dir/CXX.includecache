@@ -20,6 +20,20 @@ D:/Projects/cpp/data_structures/Stack.h
 vector
 -
 
+D:/Projects/cpp/data_structures/dict/Dict.h
+Pair.h
+D:/Projects/cpp/data_structures/dict/Pair.h
+
+D:/Projects/cpp/data_structures/dict/Pair.h
+
+D:/Projects/cpp/data_structures/dict/UnorderedDict.h
+Dict.h
+D:/Projects/cpp/data_structures/dict/Dict.h
+Pair.h
+D:/Projects/cpp/data_structures/dict/Pair.h
+../list/ArrayList.h
+D:/Projects/cpp/data_structures/list/ArrayList.h
+
 D:/Projects/cpp/data_structures/list/ArrayList.h
 List.h
 D:/Projects/cpp/data_structures/list/List.h
@@ -51,6 +65,8 @@ list/LinkedList.h
 D:/Projects/cpp/data_structures/list/LinkedList.h
 queue/LQueue.h
 D:/Projects/cpp/data_structures/queue/LQueue.h
+dict/UnorderedDict.h
+D:/Projects/cpp/data_structures/dict/UnorderedDict.h
 
 D:/Projects/cpp/data_structures/queue/LQueue.h
 Queue.h

@@ -105,6 +105,15 @@
 		<Unit filename="D:/Projects/cpp/data_structures/Stack.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/dict/Dict.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/dict/Pair.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/cpp/data_structures/dict/UnorderedDict.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/cpp/data_structures/list/ArrayList.h">
 			<Option target="data_structures"/>
 		</Unit>

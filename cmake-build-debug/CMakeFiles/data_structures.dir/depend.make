@@ -8,6 +8,9 @@ CMakeFiles\data_structures.dir\main.cpp.obj: ..\Array.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\DynamicArray.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\MergeSort.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\Stack.h
+CMakeFiles\data_structures.dir\main.cpp.obj: ..\dict\Dict.h
+CMakeFiles\data_structures.dir\main.cpp.obj: ..\dict\Pair.h
+CMakeFiles\data_structures.dir\main.cpp.obj: ..\dict\UnorderedDict.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\list\ArrayList.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\list\Link.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\list\LinkedList.h
